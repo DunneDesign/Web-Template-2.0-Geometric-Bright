@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Get Started | Contact Us</title>
-    <meta name="description" content="Contact our specialists to discuss your business needs, request a tailored proposal, and initiate your project transformation." />
+    <title>Corporate Strategy | Our Services</title>
+    <meta name="description" content="Explore our specialized corporate business solutions designed to drive growth, streamline operations, and scale your business." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -24,18 +24,18 @@
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li class="dropdown desktop-only">
+          <li class="dropdown desktop-only active">
             <a href="#" class="drop-btn">Services <span class="arrow">&#9662;</span></a>
             <ul class="dropdown-content">
-              <li><a href="service1.html">Service 1</a></li>
+              <li class="active"><a href="service1.html">Service 1</a></li>
               <li><a href="service2.html">Service 2</a></li>
               <li><a href="service3.html">Service 3</a></li>
             </ul>
           </li>
-          <li class="mobile-only"><a href="service1.html">Service 1</a></li>
+          <li class="mobile-only active"><a href="service1.html">Service 1</a></li>
           <li class="mobile-only"><a href="service2.html">Service 2</a></li>
           <li class="mobile-only"><a href="service3.html">Service 3</a></li>
-          <li class="active"><a class="button-links nav-action-button" href="contact.html" style="padding: 0.5rem 1.25rem;">Get Started</a></li>
+          <li><a class="button-links nav-action-button" href="contact.html" style="padding: 0.5rem 1.25rem;">Get Started</a></li>
         </ul>
 
         <div class="hamburger" id="hamburger">
@@ -46,88 +46,127 @@
       </div>
     </nav>
 
-    <!-- SECTION 1: Asymmetric Contact Layout Grid -->
-    <section>
+    <!-- SECTION 1: Service Specific Hero -->
+    <section class="about-hero-center">
       <div class="container">
-        <div class="two-grid">
+        <div class="center scroll-anim">
+          <span class="section-caption">Lorem Strategy Solutions</span>
+          <h1>Lorem Ipsum Corporate Strategy</h1>
+          <p style="margin-top: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum nulla, facilisis sit amet sem sit amet, efficitur ultrices arcu. Nam a nunc hendrerit, gravida quam sit amet, luctus dolor.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Dynamic Service Tiers Cards -->
+    <section class="main-color-section dark-section">
+      <div class="container">
+        <div class="services-tier-grid">
           
-          <!-- Left Column: Contact Text Info -->
-          <div class="cell scroll-anim">
-            <span class="section-caption">Lorem Contact Info</span>
-            <h1>Lorem Ipsum Contact</h1>
-            <p style="margin-top: 1rem; margin-bottom: 2rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum nulla, facilisis sit amet sem sit amet, efficitur ultrices arcu. Proin feugiat sem vel diam eleifend.</p>
-            
-            <div class="testimony-div">
-              <h3>Lorem Ipsum Contact Details</h3>
-              <ul class="vertical-list" style="gap: 1rem; margin-top: 1.5rem; list-style: none;">
-                <li style="border-left-color: var(--secondary-color);"><strong>Lorem Email:</strong> info@loremipsumcompany.com</li>
-                <li style="border-left-color: var(--secondary-color);"><strong>Lorem Phone:</strong> +1 (555) 123-4567</li>
-                <li style="border-left-color: var(--secondary-color);"><strong>Lorem Location:</strong> 123 Lorem Street, Ipsum Suite 400, NY 10001</li>
-              </ul>
+          <div class="service-card scroll-anim scroll-delay-1">
+            <div class="service-card-meta">
+              <span class="service-feature-tag">Lorem Enterprise</span>
+              <h3>Lorem Strategy Tier</h3>
+              <p style="margin-top: 1rem; font-size: 0.95rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum nulla, facilisis sit amet sem sit amet, efficitur ultrices arcu.</p>
             </div>
+            <a class="button-links accent-button" href="contact.html" style="margin-top: 1.5rem; width: 100%;">Lorem Button</a>
           </div>
 
-          <!-- Right Column: Live Web3Forms Contact Form -->
-          <div class="cell scroll-anim scroll-delay-2" style="border: 3px solid var(--neutral-dark); padding: 3rem; border-radius: 0px; background-color: var(--neutral-light); box-shadow: 8px 8px 0px var(--neutral-dark);">
-            <form action="https://api.web3forms.com/submit" method="POST" class="vertical-list">
-              
-              <!-- Web3Forms Config Key -->
-              <input type="hidden" name="access_key" value="ac2672f2-ed4f-42f2-866c-7c4f51dc1e1a">
-              
-              <!-- Optional: Customizes the email subject line your client sees -->
-              <input type="hidden" name="subject" value="Lorem Submit">
+          <div class="service-card scroll-anim scroll-delay-2">
+            <div class="service-card-meta">
+              <span class="service-feature-tag">Lorem Professional</span>
+              <h3>Lorem Analytics Tier</h3>
+              <p style="margin-top: 1rem; font-size: 0.95rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum nulla, facilisis sit amet sem sit amet, efficitur ultrices arcu.</p>
+            </div>
+            <a class="button-links accent-button" href="contact.html" style="margin-top: 1.5rem; width: 100%;">Lorem Button</a>
+          </div>
 
-              <li>
-                <label for="name">Lorem Name</label>
-                <input type="text" id="name" name="name" placeholder="Lorem ipsum" required />
-              </li>
-              
-              <li>
-                <label for="email">Lorem Email</label>
-                <input type="email" id="email" name="email" placeholder="lorem@ipsum.com" required />
-              </li>
-              
-              <li>
-                <label for="message">Lorem Message</label>
-                <textarea id="message" name="message" placeholder="Lorem ipsum dolor sit amet..." required></textarea>
-              </li>
-
-              <li style="margin-top: 1rem;">
-                <button type="submit" class="button-links accent-button" style="width: 100%;">Lorem Submit</button>
-              </li>
-            </form>
+          <div class="service-card scroll-anim scroll-delay-3">
+            <div class="service-card-meta">
+              <span class="service-feature-tag">Lorem Startup</span>
+              <h3>Lorem Launch Tier</h3>
+              <p style="margin-top: 1rem; font-size: 0.95rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum nulla, facilisis sit amet sem sit amet, efficitur ultrices arcu.</p>
+            </div>
+            <a class="button-links accent-button" href="contact.html" style="margin-top: 1.5rem; width: 100%;">Lorem Button</a>
           </div>
 
         </div>
       </div>
     </section>
 
-    <!-- SECTION 2: Structural Metrics -->
-    <section class="main-color-section dark-section">
+    <!-- SECTION 3: Detailed Split Features List -->
+    <section>
       <div class="container">
-        <div class="center scroll-anim" style="margin-bottom: 4rem;">
-          <span class="section-caption" style="color: var(--neutral-dark);">Lorem Enterprise Scale</span>
-          <h2>Lorem Response Commitment</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="two-grid">
+          <div class="left-sticky scroll-anim">
+            <span class="section-caption">Lorem Features</span>
+            <h2>Lorem Ipsum Delivery</h2>
+            <p style="margin-top: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat sem vel diam eleifend, vitae rhoncus lorem scelerisque.</p>
+          </div>
+          <div>
+            <ul class="vertical-list">
+              <li class="scroll-anim scroll-delay-1">
+                <h3>Lorem Data Mapping</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum nulla, facilisis sit amet sem sit amet, efficitur ultrices arcu.</p>
+              </li>
+              <li class="scroll-anim scroll-delay-2">
+                <h3>Lorem Operational Audit</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum nulla, facilisis sit amet sem sit amet, efficitur ultrices arcu.</p>
+              </li>
+              <li class="scroll-anim scroll-delay-3">
+                <h3>Lorem Competitive Benchmarking</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum nulla, facilisis sit amet sem sit amet, efficitur ultrices arcu.</p>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </section>
 
+    <!-- SECTION 4: Statistics Metrics Block -->
+    <section class="secondary-color-section dark-section">
+      <div class="container">
         <div class="center-figures scroll-anim">
           <div class="vertical-figure">
-            <h2>2<span class="stat-counter" data-target="4">0</span>h</h2>
-            <p>Lorem Response Time</p>
+            <h2><span class="stat-counter" data-target="95">0</span>%</h2>
+            <p>Lorem Strategy Precision</p>
           </div>
           <div class="vertical-figure">
-            <h2><span class="stat-counter" data-target="100">0</span>%</h2>
-            <p>Lorem Transmission Rate</p>
+            <h2><span class="stat-counter" data-target="180">0</span>+</h2>
+            <p>Lorem Audited Firms</p>
           </div>
           <div class="vertical-figure">
-            <h2><span class="stat-counter" data-target="24">0</span>/7</h2>
-            <p>Lorem Support Coverage</p>
+            <h2><span class="stat-counter" data-target="22">0</span>M</h2>
+            <p>Lorem Cost Savings</p>
           </div>
           <div class="vertical-figure">
-            <h2><span class="stat-counter" data-target="50">0</span>+</h2>
-            <p>Lorem Specialists</p>
+            <h2><span class="stat-counter" data-target="8">0</span>%</h2>
+            <p>Lorem ROI Boost</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Trust Endorsement Quote -->
+    <section>
+      <div class="container">
+        <div class="center scroll-anim" style="max-width: 900px; margin: 0 auto; text-align: left;">
+          <span class="section-caption">Lorem Endorsement</span>
+          <h2>Lorem Ipsum Endorsement</h2>
+          <div class="testimony-div">
+            <h3>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum nulla, facilisis sit amet sem sit amet, efficitur ultrices arcu. Nam a nunc hendrerit, gravida quam sit amet, luctus dolor."</h3>
+            <p>&mdash; Lorem Ipsum, Strategy Vice-President</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: Stylized CTA Separator Section -->
+    <section style="background-color: var(--neutral-light-gray); border-top: 2px solid var(--neutral-dark);">
+      <div class="container">
+        <div class="center scroll-anim">
+          <h2>Lorem Ipsum Supercharge?</h2>
+          <p class="section-caption-below">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+          <a class="button-links accent-button" href="contact.html" style="margin-top: 2rem;">Lorem Button</a>
         </div>
       </div>
     </section>
